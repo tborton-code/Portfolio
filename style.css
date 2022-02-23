@@ -40,10 +40,12 @@ header, footer{
 }
 
 .header-top {
+    height: 150px;
     margin-top: -70px;
     padding-top: 25px;
-    margin-left: -10px;
     margin-right: -10px;
+    margin-left: -10px;
+    padding-bottom: 1px;
 /* with these negative margins, I covered up the background that was 
 showing around the edges of the top header. I imagine there is
 a cleaner way to do this, but this is what I came up with*/
